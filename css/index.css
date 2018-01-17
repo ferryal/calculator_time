@@ -1,0 +1,18 @@
+h2 {
+  font-family: 'Quicksand', cursive;
+}
+
+.output {
+  font-family: 'Quicksand', cursive;
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+
+.btn {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#button-ciclecircum {
+  display: block;
+}
