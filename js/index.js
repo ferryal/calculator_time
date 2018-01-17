@@ -39,22 +39,11 @@ function todayArab() {
     month: 'long',
     day: 'numeric'
   };
-  var temp;
+  var temp1;
   temp = date.toLocaleDateString('ar-EG', options);
   document.getElementById('result').innerHTML = `Today Arab : ${temp}`;
 }
 
-function todayIndo() {
-  var options = {
-    weekday: 'long',
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric'
-  };
-  var temp;
-  temp = date.toLocaleDateString('en-ID', options);
-  document.getElementById('result').innerHTML = `Today Arab : ${temp}`;
-}
 
 function today() {
   var dayFix = getday()
